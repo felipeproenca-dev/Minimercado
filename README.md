@@ -1,9 +1,11 @@
 # Minimercado
 Projeto de um Minimercado utilizando apenas HTML
 
-Estrutura:
-- index.html
-- produtos.html
-- servicos.html
-- contato.html
-- Pasta 'imagens/' com os arquivos PNG de cada produto.
+Funcionalidades
+
+- **Início**: Apresenta as categorias de produtos (Bebidas, Higiene e Mercearia) e informa os serviços disponíveis.
+- **Produtos**: Exibe três categorias, cada uma com dois produtos. Cada produto contém uma imagem ilustrativa, descrição e valor.
+- **Serviços**: Lista o serviço oferecido pelo minimercado (Entrega em domicílio), com descrição e valor.
+- **Contato**: Informa endereço, telefone, e-mail e horário de funcionamento.
+- **Rodapé**: Disponível em todas as páginas, com informações de contato e links de navegação.
+

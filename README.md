@@ -9,3 +9,5 @@ Funcionalidades
 - **Contato**: Informa endereço, telefone, e-mail e horário de funcionamento.
 - **Rodapé**: Disponível em todas as páginas, com informações de contato e links de navegação.
 
+O projeto está publicado no GitHub Pages.
+https://felipeproenca-dev.github.io/Minimercado/

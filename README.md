@@ -1,7 +1,7 @@
 # Minimercado
 Projeto de um Minimercado utilizando apenas HTML
 
-# Mercadinho Raiz & Sabor — Fase 1
+# Mercadinho Raiz & Sabor.
 
 Páginas estáticas em HTML (sem CSS/Bootstrap/JS).
 Estrutura:

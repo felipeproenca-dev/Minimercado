@@ -1,13 +1,23 @@
-# Minimercado
-Projeto de um Minimercado utilizando apenas HTML
+# Mercadinho Raiz & Sabor 
 
-Funcionalidades
+COntinuação Fase 1, agora com Bootstrap, CSS, JavaScript, carrossel e formulário de cadastro com agendamento.
 
-- **Início**: Apresenta as categorias de produtos (Bebidas, Higiene e Mercearia) e informa os serviços disponíveis.
-- **Produtos**: Exibe três categorias, cada uma com dois produtos. Cada produto contém uma imagem ilustrativa, descrição e valor.
-- **Serviços**: Lista o serviço oferecido pelo minimercado (Entrega em domicílio), com descrição e valor.
-- **Contato**: Informa endereço, telefone, e-mail e horário de funcionamento.
-- **Rodapé**: Disponível em todas as páginas, com informações de contato e links de navegação.
+Páginas disponíveis:
+- index.html — Carrossel e destaques
+- produtos.html — Produtos por categoria
+- servicos.html — Serviços disponíveis
+- cadastro.html — Formulário do cliente com agendamento (data e hora)
+- contato.html — Informações de contato
 
-O projeto está publicado no GitHub Pages.
-https://felipeproenca-dev.github.io/Minimercado/
+Acessibilidade: labels,alt nas imagens, aria-live para mensagens.
+
+Publicado no GitHub Pages. https://felipeproenca-dev.github.io/Minimercado/
+
+## Funcionalidades
+- Início: carrossel de imagens e atalhos para as categorias.
+- Produtos: exibe 3 categorias com 2 produtos cada; cada produto tem imagem, descrição e preço.
+- Serviços: entrega em domicílio com botão para agendar.
+- Cadastro & Agendamento: formulário para cadastro do cliente e agendamento de retirada/entrega com data e hora.
+- Contato: endereço, telefone e e-mail.
+
+

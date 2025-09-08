@@ -2,44 +2,71 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Mercadinho Raiz & Sabor — Serviços</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mercadinho Raiz & Sabor</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="style.css" rel="stylesheet">
+
 </head>
 <body>
-<header>
-  <h1>Mercadinho Raiz & Sabor</h1>
-  <p>O seu minimercado de bairro: fresquinho, prático e com preço justo.</p>
-  <nav>
-    <a href="index.html">Início</a> | 
-    <a href="produtos.html">Produtos</a> | 
-    <a href="servicos.html">Serviços</a> | 
-    <a href="contato.html">Contato</a> | 
+  <a class="visually-hidden-focusable" href="#conteudo">Ir para o conteúdo principal</a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Navegação principal">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Raiz &amp; Sabor</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbars" aria-controls="navbars" aria-expanded="false" aria-label="Alternar navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbars">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="produtos.html">Produtos</a></li>
+          <li class="nav-item"><a class="nav-link" href="servicos.html">Serviços</a></li>
+          <li class="nav-item"><a class="nav-link" href="cadastro.html">Cadastro &amp; Agendamento</a></li>
+          <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+        </ul>
+        <span class="navbar-text" id="relogio" aria-live="polite">--:--:--</span>
+      </div>
+    </div>
   </nav>
-  <hr>
-</header>
 
-<main>
-  <h2>Serviços</h2>
-  <section>
-    <article>
-      <h3>Entrega em Domicílio</h3>
-      <p>Descrição: Receba suas compras no conforto de casa em até 2 horas (raio de 3 km).</p>
-      <p>Valor: R$ 7,00 por entrega.</p>
-    </article>
-  </section>
+<main id="conteudo" class="container my-4">
+  <h1 class="mb-4">Serviços</h1>
+  <div class="row g-4">
+    <div class="col-md-6">
+      <div class="card h-100">
+        <div class="card-body">
+          <h2 class="h5">Entrega em Domicílio</h2>
+          <p>Receba suas compra no conforto de casa em até 2 horas (raio de 3 km).</p>
+          <p class="fw-bold">R$ 7,00 por entrega</p>
+          <a class="btn btn-primary" href="cadastro.html">Agendar entrega</a>
+        </div>
+      </div>
+    </div>
+  </div>
 </main>
-<hr>
-<footer>
-  <p>&copy; 2025 Mercadinho Raiz &amp; Sabor</p>
-  <p>Contato do estabelecimento: (19) 99999-0000 • contato@raizesabor.com</p>
-  <p>Desenvolvido por Felipe Proença</p>
-  <nav>
-    <a href="index.html">Início</a> | 
-    <a href="produtos.html">Produtos</a> | 
-    <a href="servicos.html">Serviços</a> | 
-    <a href="contato.html">Contato</a> | 
-  </nav>
-</footer>
+  <footer class="bg-light border-top mt-5 py-4">
+    <div class="container small">
+      <div class="row">
+        <div class="col-md-6">
+          <p class="mb-1">&copy; 2025 Mercadinho Raiz &amp; Sabor — Desenvolvido por Felipe Proença.</p>
+          <p class="mb-0">Contato: (19) 99999-0000 • contato@raizesabor.com</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <a href="index.html" class="me-3">Início</a>
+          <a href="produtos.html" class="me-3">Produtos</a>
+          <a href="servicos.html" class="me-3">Serviços</a>
+          <a href="cadastro.html" class="me-3">Cadastro</a>
+          <a href="contato.html">Contato</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
 
 </body>
 </html>
